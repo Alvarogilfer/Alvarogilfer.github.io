@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Página WEB de Álvaro Gil</title>
+    <style>
+        body {
+
+            font-family: 'Trebuchet MS', Arial, sans-serif;
+            background-color: sandybrown;
+        }
+
+        #id1 {
+            width: 900px;
+            margin: auto;
+        }
+
+        footer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        h1{
+            text-align: center;
+        }
+        section h1,
+        footer h1,
+        nav a {
+            font-family: Dayrom, serif;
+            font-weight: normal;
+            text-transform: uppercase;
+        }
+
+
+        #idtitulo {
+            display: inline-block;
+        }
+
+        header h1 {
+            font-family: 'BallparkWeiner', serif;
+            font-size: 2.5em;
+            font-weight: normal;
+        }
+
+        #logo,
+        header h1 {
+            display: inline-block;
+            margin-bottom: 0px;
+        }
+
+        header h2 {
+            font-family: Dayrom, serif;
+            font-size: 1.1em;
+            margin-top: 0px;
+            font-weight: normal;
+        }
+
+        nav {
+            display: inline-block;
+            width: 740px;
+            text-align: right;
+        }
+
+        nav ul {
+            list-style-type: none;
+        }
+
+        nav li {
+            display: inline-block;
+            margin-right: 15px;
+        }
+
+        nav a {
+            font-size: 1.3em;
+            color: #181818;
+            padding-bottom: 3px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            color: #760001;
+            border-bottom: 3px solid #760001;
+        }
+
+
+        #image1 {
+            margin-top: 15px;
+            height: 200px;
+            border-radius: 5px;
+            background: url('./vigo.jpg') no-repeat;
+            position: relative;
+            box-shadow: 0px 4px 4px #1c1a19;
+            margin-bottom: 25px;
+        }
+
+        #imagenvigo {
+            position: absolute;
+            bottom: 0;
+            border-radius: 0px 0px 5px 5px;
+            width: 99.5%;
+            height: 33px;
+            padding-top: 15px;
+            padding-left: 4px;
+            background-color: rgb(24, 24, 24);
+            background-color: rgba(24, 24, 24, 0.8);
+            color: white;
+            font-size: 0.8em;
+        }
+
+        .botonvigo {
+            display: inline-block;
+            height: 25px;
+            position: absolute;
+            right: 5px;
+            bottom: 5px;
+            border: 1px solid #760001;
+            border-radius: 5px;
+            font-size: 1.2em;
+            text-align: center;
+            padding: 3px 8px 0px 8px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .imagenvigo img {
+            border: 0;
+        }
+
+        article,
+        aside {
+            align-self: center;
+            display: inline-block;
+            vertical-align: top;
+            text-align: justify;
+        }
+
+        article {
+            width: 625px;
+            margin-right: 15px;
+        }
+
+        .cat_icon {
+            vertical-align: middle;
+            margin-right: 8px;
+        }
+
+        article p {
+            font-size: 0.8em;
+        }
+
+        aside {
+            position: relative;
+            width: px;
+            background-color: #706b64;
+            box-shadow: 0px 2px 5px #1c1a19;
+            border-radius: 5px;
+            padding: 10px;
+            color: white;
+            font-size: 0.9em;
+        }
+
+        #arrow {
+            position: absolute;
+            top: 100px;
+            left: -12px;
+        }
+
+        #mi_imagen {
+            text-align: center;
+        }
+
+        #mi_imagen img {
+            border: 1px solid #181818;
+        }
+
+        aside img {
+            margin-right: 5px;
+        }
+
+        }
+
+        footer p,
+        footer ul {
+            font-size: 0.8em;
+        }
+
+        footer h1 {
+            font-size: 1.1em;
+        }
+
+        #tweet,
+        #mis_imagenes,
+        #mis_amigos {
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        #tweet {
+            width: 28%;
+        }
+
+        #mis_imagenes {
+            width: %;
+        }
+
+        #mis_amigos {
+            width: 31%;
+        }
+
+        #mis_imagenes img {
+            border: 1px solid #181818;
+            margin-right: 2px;
+        }
+
+        #mis_amigos ul {
+            display: inline-block;
+            vertical-align: top;
+            margin-top: 0;
+            width: 48%;
+            padding-left: 2px;
+        }
+
+        #mis_amigos a {
+            text-decoration: none;
+            color: #760001;
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="id1">
+        <header>
+            <div id="idtitulo">
+                <img src="./libra.png" alt="Logo de libra" id="logo" />
+                <h1>Álvaro Gil WEB</h1>
+                <h2>Página web</h2>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Viajes</a></li>
+                    <li><a href="formulario.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="image1">
+            <div id="imagenvigo">
+                Mi ciudad... Vigo
+                <a href="http://hoxe.vigo.org/#/" class="botonvigo"> mira </a>
+            </div>
+        </div>
+
+        <section>
+            <article>
+                <h1><img src="logoviajes.jpg" alt="viajes" class="ico_categorie" />Me encanta viajar </h1>
+                <p>Uno de mis sueños desde pequeño siempre ha sido viajar..</p>
+                <p>Por eso cree esta página, para contaros mis viajes así como enseñaros imágenes de los lugares
+                    que he visitado y visitaré. Espero que me acompañeis en esta maravillosa aventura
+                </p>
+                <p>Bienvenidos!!</p>
+            </article>
+            <aside>
+                <h1>Sobre el autor</h1>
+                <p id="mi_imagen"><img src="yo.jpg" alt="mi imagen" /></p>
+                <p>Información personal: Mi nombre es Álvaro Gil. Nací el 17 de Octubre de 1995.</p>
+                <p>Tenía ganas de hacer una página web propia con los viajes que he realizado..</p>
+                <p><a href="https://www.facebook.com/alvaro.gil.1217"><img src="facebook.jpg" alt="Facebook" /></a><a
+                        href="https://twitter.com/alvarogilfer"><img src="twitter.png" alt="Twitter" /></a><img
+                        src="instagram.jpg" alt="Instagram" /></p>
+            </aside>
+        </section>
+
+        <footer>
+            <div id="tweet">
+                <h1>Mi último tweet</h1>
+                <p>Que pasa gente!
+                    Estoy pasando unos días en Nápoles
+                </p>
+                <p>12/05 23:12</p>
+            </div>
+            <div id="mis_imagenes">
+                <h1>Mis imagenes</h1>
+                <p><a href="https://sagradafamilia.org/es/home"><img src="barcelona.jpg" alt="Barcelona" /></a><a
+                        href="https://es.napolike.com/il-palazzo-reale-napoli"><img src="palacionapoles.jpg"
+                            alt="Napoles" /></a><a
+                        href="https://www.colosseum-rome-tickets.com/es/?gclid=EAIaIQobChMIy7eL2cqt5gIVAoXVCh2AXAOREAAYASAAEgK6vfD_BwE"><img
+                            src="roma.jpg" alt="Roma" /></a><a
+                        href="https://www.visitportugal.com/es/node/73802?gclsrc=aw.ds&ds_rl=1254008&gclid=EAIaIQobChMI3eHt7cqt5gIVkETTCh3kwg5DEAAYASAAEgLUpfD_BwE"><img
+                        src="algarve.jpg" alt="Algarve" /></a></p>
+            </div>
+            <div id="mis_amigos">
+                <h1>Mis amigos</h1>
+                <ul>
+                    <li><a href="#">David</a></li>
+                    <li><a href="#">Pablo</a></li>
+                    <li><a href="#">Quique</a></li>
+                    <li><a href="#">Alexandre Duque</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Alberto Posse</a></li>
+                    <li><a href="#">Brais Lago</a></li>
+                    <li><a href="#">José</a></li>
+                    <li><a href="#">Pablo Torres</a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

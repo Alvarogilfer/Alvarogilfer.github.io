@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: sandybrown;
+        }
+        form{
+            background-color: darkred;
+            width: 50%;
+            margin:0 auto;
+            padding:0 90px 15px 90px;
+            font-family: arial;
+        }
+        label , input{
+            display: block;
+        }
+
+        h2{
+            text-align: center;
+        }
+       
+        input,textarea{
+            width: 100%;
+            padding: 0.4em 0px;
+            padding-left: 10px;
+            border-radius: 5px;
+            color: gray;
+            font-size: 1.2em;
+        }
+        textarea{
+            padding: .8em 10px;
+            font-size: 1.3em;
+            margin-top: 10px;
+        }
+        
+        label + input{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"]{
+            width: 100px;
+            margin: 55px;
+            background: black;
+            color: white;
+            border-radius: 5px;
+            
+        }
+        
+    
+    </style>
+</head>
+<body>
+    <form>
+        <h2>Contacta conmigo</h2>
+        <label for="txtNombre">Nombre</label>
+        <input type="text" id="txtNombre" value="Nombre">
+        <label for="txtEmail">Email</label>
+        <input type="email" id="txtEmail" value="Correo electrónico">
+        <label for="txtTelefono">Teléfono</label>
+        <input type="text" id="txtTelefono" value="Número de teléfono">
+        <label>Mensaje</label>
+        <textarea id="txtArea" >
+            
+        </textarea>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
